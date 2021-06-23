@@ -19,7 +19,7 @@ const Userpage = (props) => {
 							</div>
 						);
 					}
-					return null;
+					return;
 				})
 			}
 		</div>

@@ -27,7 +27,7 @@ const Home = (props) => {
 						if (index < 50) {
 							return <li key={id}><Link to={`${path}${id}`} className="userId">{id}</Link></li>
 						}
-						return null;
+						return;
 					})
 				}
 			</ul>
